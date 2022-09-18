@@ -1,0 +1,52 @@
+.discover-main-section{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-grow: 1;
+}
+
+.discover-main-section .covers-image{
+  width: 20vw;
+  height: auto;
+  max-width: 350px;
+  margin-left: 4rem;
+}
+
+.icon-section{
+  display: flex;
+}
+
+.icon-section .icon{
+display: flex;
+font-size: 1em;
+margin: 0.5rem;
+flex-direction: column;
+padding: 0.75rem;
+align-items: center;
+justify-content: space-between;
+height: 80px;
+width: 80px;
+background-color: #202027;
+margin-bottom: 2rem;
+}
+
+
+.icon img{
+  width:30px;
+}
+
+@media(max-width:800px){
+
+  .discover-main-section{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .discover-main-section .covers-image{
+    margin-top: 2rem;
+    height: 20vh;
+    width: auto;
+
+  }
+
+}
